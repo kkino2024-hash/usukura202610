@@ -1,0 +1,70 @@
+/* 基本設定 */
+:root {
+    --bg-white: #ffffff;
+    --bg-ivory: #fdfbf7;
+    --text-main: #1a1a1a;
+    --text-sub: #777777;
+    --gold: #d4af37;
+    --line-green: #06C755;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', sans-serif;
+    color: var(--text-main);
+    background-color: var(--bg-white);
+    margin: 0;
+    padding: 0;
+    line-height: 1.9;
+    letter-spacing: 0.08em;
+}
+
+/* レイアウト・コンテナ */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+section:nth-of-type(even) {
+    background-color: var(--bg-ivory);
+}
+
+/* 見出し */
+h2, h3 {
+    letter-spacing: 0.15em;
+    color: var(--text-main);
+}
+
+/* カードデザイン（政策エリア等） */
+.card {
+    background-color: var(--bg-white);
+    border: 1px solid #f0e6cc;
+    border-radius: 4px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+    margin-bottom: 30px;
+}
+
+/* CTAボタン */
+.line-button {
+    display: block;
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    background-color: var(--line-green);
+    color: var(--bg-white);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.line-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
