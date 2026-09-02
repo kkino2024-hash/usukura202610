@@ -8,25 +8,62 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-		<style>
-			/* スマホ向け：読みやすさの調整 */
-			@media screen and (max-width: 736px) {
-				.main { padding: 2em 1.5em !important; }
-				h2 { font-size: 1.5em !important; }
-				p { font-size: 1.1em !important; line-height: 1.8 !important; }
-				.features .card { padding: 1.5em !important; margin-bottom: 2em !important; }
-			}
-			/* 若草色のアクセント */
-			.button.primary { background-color: #9bca3e !important; }
-			.button.primary:hover { background-color: #7fa632 !important; }
-			#header h1 { color: #2f5213 !important; }
-		</style>
-		<style>
+			<style>
+			/* 派手なデザインにするためのCSS追加 */
 			body {
-				background-color: #c6e0b4 !important;
-				background-image: url("images/overlay.png"), linear-gradient(45deg, #a9d18e 15%, #76a365 85%) !important;
+				background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%) !important;
 			}
-		</style>
+			#header {
+				background: linear-gradient(to bottom, rgba(47, 82, 19, 0.9), rgba(127, 166, 50, 0.8)) !important;
+				color: #fff !important;
+				padding: 6em 2em !important;
+				text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+			}
+			#header h1 {
+				color: #ffffff !important;
+				font-size: 4em !important;
+				letter-spacing: 0.1em;
+				text-transform: uppercase;
+			}
+			#header p {
+				font-size: 1.5em !important;
+				color: #f0f0f0 !important;
+			}
+			.main {
+				background: rgba(255, 255, 255, 0.8) !important;
+				border-radius: 20px !important;
+				margin: 2em !important;
+				padding: 3em !important;
+				box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+			}
+			h2 {
+				color: #2f5213 !important;
+				border-bottom: 3px solid #9bca3e !important;
+				padding-bottom: 0.5em !important;
+				margin-bottom: 1em !important;
+			}
+			.button.primary {
+				background: #9bca3e !important;
+				background-image: linear-gradient(to right, #9bca3e, #7fa632) !important;
+				box-shadow: 0 4px 15px rgba(155, 202, 62, 0.4) !important;
+				border-radius: 50px !important;
+				padding: 0 2em !important;
+				font-weight: bold !important;
+				transition: transform 0.3s ease !important;
+			}
+			.button.primary:hover {
+				transform: scale(1.05) !important;
+			}
+			.card {
+				background: #ffffff !important;
+				border-radius: 15px !important;
+				transition: all 0.3s ease !important;
+			}
+			.card:hover {
+				transform: translateY(-10px) !important;
+				box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important;
+			}
+			</style>
 	<body class="is-preload">
 
 		<div id="wrapper">
