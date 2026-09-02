@@ -8,6 +8,25 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+		<style>
+			/* スマホ向け：読みやすさの調整 */
+			@media screen and (max-width: 736px) {
+				.main { padding: 2em 1.5em !important; }
+				h2 { font-size: 1.5em !important; }
+				p { font-size: 1.1em !important; line-height: 1.8 !important; }
+				.features .card { padding: 1.5em !important; margin-bottom: 2em !important; }
+			}
+			/* 若草色のアクセント */
+			.button.primary { background-color: #9bca3e !important; }
+			.button.primary:hover { background-color: #7fa632 !important; }
+			#header h1 { color: #2f5213 !important; }
+		</style>
+		<style>
+			body {
+				background-color: #c6e0b4 !important;
+				background-image: url("images/overlay.png"), linear-gradient(45deg, #a9d18e 15%, #76a365 85%) !important;
+			}
+		</style>
 	<body class="is-preload">
 
 		<div id="wrapper">
@@ -21,9 +40,9 @@
 				<ul>
 					<li><a href="#profile" class="active">人物紹介</a></li>
 					<li><a href="#activity">地域活動</a></li>
-					<li><a href="#issue">問題提起</a></li>
+					<li><a href="#issue">市政への提言</a></li>
+					<li><a href="#promises">3つの柱</a></li>
 					<li><a href="#contact">市民の声を聞く</a></li>
-					<li><a href="#promises">政策形成（3つの約束）</a></li>
 				</ul>
 			</nav>
 
@@ -33,67 +52,96 @@
 					<header class="major"><h2>人物紹介</h2></header>
 					<div class="content" style="text-align: left; max-width: 700px; margin: 0 auto;">
 						<p><strong>プロフィール</strong><br>
-						私は、自ら会社を経営する一人の「現役ビジネスパーソン」として、常に変化する経済の最前線でスピード感と合理性を重んじて生きてきました。また、神戸青年会議所（神戸JC）の理事をはじめとする若手経済人のネットワークの中で、この街の次世代のために何ができるかを熱く議論し、泥臭く行動を起こしてきました。</p>
-						<p>その「経営者としての視点」と「若手リーダーとしての実行力」を認められ、13,000人・約4,400世帯が暮らす、川西市最大の地域コミュニティ「多田グリーンハイツ自治会」の会長に就任。常に住民の皆様のリアルな声に向き合い、現場発の課題解決に奔走してきました。</p>
+						私は、自ら会社を経営する一人の「現役ビジネスパーソン」として、常に変化する経済の最前線でスピード感と合理性を重んじて生きてきました。また、大阪青年会議所（大阪JC）の理事をはじめとする若手経済人のネットワークの中で、この街の次世代のために何ができるかを熱く議論し、行動を起こしてきました。</p>
+						<p>その「経営者としての視点」と「リーダーとしての実行力」を認められ、13,000人・約4,400世帯が暮らす、川西市最大の地域コミュニティ「多田グリーンハイツ自治会」の会長に就任。常に住民の皆様のリアルな声に向き合い、現場の課題解決に奔走してきました。</p>
+					<div style="text-align: center; margin-top: 30px;">
+						<img src="images/festival.jpg" alt="子どもたちと触れ合ううすくらよしなお" 
+							 style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); border: 3px solid #ffffff;">
+						<p style="margin-top: 15px; font-style: italic; color: #444;">
+							「地域の子どもたちの笑顔が、一番の宝物。<br>未来を守るため、全力で汗をかきます。」
+						</p>
+					</div>
 						<p><strong>略歴・実績</strong><br>
 						<strong>現職:</strong> 多田グリーンハイツ自治会 会長、会社経営（民間企業 代表取締役）<br>
 						<strong>主な経歴:</strong><br>
-						・一般社団法人 神戸青年会議所（神戸JC） 理事<br>
-						<strong>スタンス:</strong> 完全無所属（市民一人ひとりの声が100%の政策指針です）</p>
+						・一般社団法人 大阪青年会議所（大阪JC） 理事<br>
+						<strong>スタンス:</strong> 特定の政党に偏らず、町の発展のために必要であれば協力関係を築く「協調型・自民系無所属」として、住民の声が100%の政策指針となる市政を目指します。</p>
 					</div>
 				</section>
 
 				<section id="activity" class="main special">
 					<header class="major"><h2>地域活動</h2></header>
 					<div class="content" style="text-align: left; max-width: 700px; margin: 0 auto;">
-						<p><strong>自治会長として、これまで地域の様々な課題に取り組んできました</strong><br>
-						「古いオールドニュータウン」と言われ、高齢化や空き家問題が進むこの街で、私が自治会長として取り組んできたのは、防犯パトロールの強化、地域防災訓練の抜本的な見直し、そして子どもたちの笑顔があふれるサマーカーニバルやもちつき大会を開催しました。机の上の議論ではなく、実際に動き、汗をかき、住民の皆様とチームを組むことで、地域コミュニティは何度でも新しく生まれ変われることを証明してきました。</p>
+						<p><strong>自治会長として、地域の皆様と一丸となって課題に取り組んできました</strong><br>
+						高齢化や空き家問題が進むこの街で、私が自治会長として注力したのは、住民の皆様と共に作る防犯・防災体制の強化や、地域イベントの活性化です。机の上の議論ではなく、住民の皆様とチームを組んで汗をかくことで、地域コミュニティは何度でも新しく生まれ変われることを実感しています。</p>
 						<p>主な実績：<br>
-						・多田グリーンハイツ地区における防犯・防災インフラの再構築<br>
-						・地域住民13,000人の声をダイレクトに行政に届けるパイプ役を牽引<br>
-						・若い親世代とシニア層を繋ぐ、地域交流イベント（サマーカーニバル等）の統括・復活</p>
+						・多田グリーンハイツ地区における防犯・防災体制の住民一体型再構築<br>
+						・住民13,000人の意見をまとめ、行政への建設的な提言を牽引<br>
+						・若い親世代とシニア層をつなぐ地域交流イベントの共同企画・運営</p>
 					</div>
 				</section>
 
 
 
 				<section id="issue" class="main special">
-					<header class="major"><h2>問題提起</h2></header>
+					<header class="major">
+						<h2>市政への提言</h2>
+						<p>批判や対立からではなく、「対話と連携」で拓く川西の未来</p>
+					</header>
 					<div class="content" style="text-align: left; max-width: 700px; margin: 0 auto;">
-						<p><strong>自治会活動を通じて感じた、地域コミュニティの課題</strong><br>
-						経営の現場や一地域だけでは解決できない「行政の壁」や「時代の変化に取り残された古い仕組み」が、今の川西市にはまだ数多く残されています。<br>
-						スマホ1つで何でも完結する時代に、なぜ一時預かりの保育園を電話で1軒ずつ探し回らなければならないのか。梅田までわずか30分という最高の立地がありながら、なぜ若い世代の人口が流出し、私たちの愛する住宅街の資産価値が下がっていってしまうのか。<br>
-						特定の政党や利権に縛られない「完全無所属」の立場から、既存の政治の常識を疑い、変えていきます。</p>
+						<p><strong>私の問題意識と政治へのスタンス</strong><br>
+						今、日本全体、そしてこの川西市が直面している最大の課題は「人口減少社会」という現実です。これまでの「人口が増え、経済が右肩上がりに成長する」ことを前提に作られた社会モデルや仕組みは、もはや機能しなくなっています。</p>
+						<p>政治の本質とは、「限られた公的資源（人・物・予算・情報）を、どのような考え方で、どういう手続きを経て、住民の幸福（福祉の向上）のために公平に分配するか」を決めることであると私は考えます。</p>
+						<p>何かを敵視したり、ただ既存の政治や行政を批判するだけでは、地域の課題は一歩も解決しません。私は、特定の政党や既存の枠組みともしなやかに協力関係を築き、国や県が持つ様々な制度や補助金メニューをしっかりと川西市に手繰り寄せながら、市民の皆様の暮らしを守る「掛け橋（リーダー）」となります。</p>
+						<p>「現役世代に寄り添いながら、未来を創る」。この決意を胸に、私は以下の3つのアプローチを市政へ提言してまいります。</p>
+						<p><strong>1. 将来世代に負担を残さない「持続可能な地域コミュニティ」の確立</strong><br>
+						行政が使う「持続可能（サステナブル）」という言葉は、単に「事業をずっと続ける」という意味ではありません。「将来を担う世代に過度な負担を押し付けることなく、地域社会を維持し、次世代へバトンタッチできること」こそが本質です。目の前の現役世代・子育て世代を徹底的に支援しつつも、将来にツケを回さない「循環型」の行財政改革とコミュニティづくりを提言します。</p>
+						<p><strong>2. 「対話と連携」による地域公共交通の再構築</strong><br>
+						赤字の路線バスやオンデマンドバスの無駄を一方的に非難するのではなく、関係者が共に手を取り合える解決策を提案します。例えば、民間バス路線と競合しない形で、スーパーや地域の拠点を結ぶ「乗り合いタクシー（お出かけ支援）」の仕組みを構築すること。国や県の補助金制度を賢く活用し、行政・民間・地域コミュニティが一体となった「お互いが競合しない、持続可能な交通網の連携」を市に強く働きかけます。</p>
+						<p><strong>3. 市民の「生の声」を予算と仕組みに反映させる政策提言</strong><br>
+						議員の役割は、自ら新しい行政の仕組みを「作る（実行する）」ことではなく、現場の声を吸い上げて「実効性のある仕組みを市に提案（提言）すること」です。自治会活動や地域活動の最前線で私が培ってきた「現場のリアルな課題」をもとに、抽象的なスローガンにとどまらない、具体的で筋の通った政策を市に届けてまいります。</p>
 					</div>
 				</section>
 
 
 				<section id="promises" class="main special">
-					<header class="major"><h2>政策形成（3つの約束）</h2><p>川西市の北部地域について、私はこう考えています</p></header>
+					<header class="major">
+						<h2>具体的な政策・事業プラン（新・3つの柱）</h2>
+					</header>
 					<div class="features">
+						<!-- 政策1：子育て・教育 -->
 						<div class="card" style="padding: 2em; border: 1px solid #eee; margin-bottom: 1em; min-height: 250px; display: flex; flex-direction: column; justify-content: flex-start;">
 							<span class="icon solid fa-child fa-3x" style="margin-bottom: 10px;"></span>
-							<h3>【政策1】子育て・教育環境の徹底アップデート</h3>
-							<p>〜「川西で育ててよかった」をすべての親御さんに〜<br><br>
-							・待機児童・送迎保育ステーションの充実：共働き世帯の負担を徹底軽減します。<br>
-							・公園・遊び場の再整備とデジタル化：子どもたちが安全に、ワクワクして遊べる空間を増やします。<br>
-							・教育現場への民間活力・ICT導入：未来を生き抜く力を育む教育環境を整えます。</p>
+							<h3>政策の柱 1：子育て・教育環境の徹底アップデート</h3>
+							<p><strong>〜行政の枠組みを超え、子どもたちの未来に投資する〜</strong><br><br>
+							<strong>【政策（方針）】</strong><br>
+							国や県の補助金メニュー（厚生労働省・文科省など）をしっかりと市に引き込み、縦割り行政の弊害（福祉部門と教育委員会のすれ違い）を解消して、子育て・教育環境の質を底上げします。<br><br>
+							<strong>【具体的な事業（提案内容）】</strong><br>
+							・待機児童保育ステーションの充実：送迎や一時預かりの拠点を整備し、働く親御さんの負担を軽減します。<br>
+							・「子どもたちの居場所」としての公園環境の再編：単なる土木事業としてではなく、子どもたちの「安全な居場所づくり」として、他部署とも連携しながら再構築を市に提言します。</p>
 						</div>
+						<!-- 政策2：公共交通 -->
 						<div class="card" style="padding: 2em; border: 1px solid #eee; margin-bottom: 1em; min-height: 250px; display: flex; flex-direction: column; justify-content: flex-start;">
-							<span class="icon solid fa-home fa-3x" style="margin-bottom: 10px;"></span>
-							<h3>【政策2】現役世代が輝く「稼げる川西」の基盤づくり</h3>
-							<p>〜会社経営のノウハウを市政へ〜<br><br>
-							・地域企業のDX（デジタル化）支援：地元で働く現役世代の生産性と給与アップを後押しします。<br>
-							・若手起業家・スタートアップ誘致：川西から新しいビジネスが生まれる仕組みを作ります。<br>
-							・行財政改革の徹底：経営者の視点で、税金の「ムダ」を削り、「未来への投資」へ回します。</p>
+							<span class="icon solid fa-bus fa-3x" style="margin-bottom: 10px;"></span>
+							<h3>政策の柱 2：お互いが競合しない「地域公共交通」の再構築</h3>
+							<p><strong>〜無駄を排し、民間路線と連携したお出かけ支援〜</strong><br><br>
+							<strong>【政策（方針）】</strong><br>
+							乗客ゼロで走るバスの無駄を批判して対立するのではなく、地方自治法に則り「最小の経費で最大の効果」を追求します。行政・民間バス会社・地域コミュニティが手を取り合う「お互いが競合しない連携」を提言します。<br><br>
+							<strong>【具体的な事業（提案内容）】</strong><br>
+							・乗り合いタクシー（お出かけ支援）の全市的展開：民間路線と競合するのではなく、駅まで住民を繋ぐことで、民間バスの利用促進にも繋がるサイクルの構築を目指します。<br>
+							・国・県の補助金スキームの徹底活用：市が主導して国・県の交通支援メニューを引っ張ってこれるよう、パイプを活かして財政負担を安く抑える仕組みを提案します。</p>
 						</div>
+						<!-- 政策3：行財政改革 -->
 						<div class="card" style="padding: 2em; border: 1px solid #eee; margin-bottom: 1em; min-height: 250px; display: flex; flex-direction: column; justify-content: flex-start;">
-							<span class="icon solid fa-rocket fa-3x" style="margin-bottom: 10px;"></span>
-							<h3>【政策3】次世代へつなぐ、持続可能な地域コミュニティ</h3>
-							<p>〜自治会長としてのリアルな経験をカタチに〜<br><br>
-							・多田グリーンハイツをモデルとした、持続可能なまちづくり：高齢化と現役世代のバトンタッチをスムーズに。<br>
-							・防災・防犯ネットワークのスマート化：スマホを活用した、現役世代も参加しやすい地域防犯体制を構築します。<br>
-							・移動手段（MaaS）の確保：子育て世代も高齢者も、市内の移動に困らない新しい足を確保します。</p>
+							<span class="icon solid fa-chart-line fa-3x" style="margin-bottom: 10px;"></span>
+							<h3>政策の柱 3：将来世代に負担をかけない「行財政改革」と「税収循環」</h3>
+							<p><strong>〜川西を豊かにする、新しいお金の生み出し方〜</strong><br><br>
+							<strong>【政策（方針）】</strong><br>
+							将来世代に過度な負担をかけないため、支出を削るだけでなく、市内発注の適正化や寄付制度活用により、川西市内で「お金が回り、税収が増える仕組み」を確立します。<br><br>
+							<strong>【具体的な事業（提案内容）】</strong><br>
+							・市内企業への優先発注による「税収循環サイクル」の構築：市内の企業や住民に予算が回る仕組みを提言します。<br>
+							・「用途指定寄付」を活用した、資産の地域還元スキーム：使われなくなった土地や資金を、地域福祉に役立てるための寄付制度を整え、寄付者の税負担圧縮と地域貢献を両立します。<br>
+							・DXによる生産性向上と職員の給与還元：業務効率化で浮いたコストを現場の給与に還元できるよう、実効性のあるDXロードマップを提言します。</p>
 						</div>
 					</div>
 				</section>
@@ -117,14 +165,16 @@
 						</div>
 						<div class="card" style="flex: 1 1 calc(50% - 20px); padding: 2em; border: 1px solid #eee; min-height: 250px; display: flex; flex-direction: column; justify-content: flex-start;">
 							<span class="icon solid fa-microphone fa-3x" style="margin-bottom: 10px;"></span>
-							<h3>講演・イベント出演依頼</h3>
-							<p>皆様に市政を身近に感じていただけるよう様々なイベントへ、参加の機会をいただけますと幸いです。お気軽にお問い合わせください。</p>
+							<h3>イベントを一緒に作りましょう！</h3>
+							<p>自治会や地域活動、学びの場など、お気軽にお声がけください。みなさんと一緒に汗を流します！市政へのご要望やご意見もぜひお聞かせください。</p>
 						</div>
 						<div class="card" style="flex: 1 1 calc(50% - 20px); padding: 2em; border: 1px solid #eee; min-height: 250px; display: flex; flex-direction: column; justify-content: flex-start;">
 							<span class="icon solid fa-handshake fa-3x" style="margin-bottom: 10px;"></span>
-							<h3>後援会</h3>
-							<p>上記の応援を希望いただく方は、年会費・登録無料の後援会メンバーへ、下記のフォームか申込書よりご登録をお願いします。<br>
-							＜入会資格＞日本国籍をお持ちの18歳以上の方であれば、居住地を問わずどなたでもご入会いただけます。（川西市外・県外の方も大歓迎です）</p>
+							<h3>応援の輪を広げて、深めてください</h3>
+							<p>薄倉の応援の輪を、川西いっぱいに「広げて、深めて」ください。以下のSNS・公式LINEより、ぜひ最新情報をチェックしてください。</p>
+							<div style="margin-top: 15px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+								[公式LINE QR] [X (Twitter) QR] [Facebook QR] [Instagram QR]
+							</div>
 						</div>
 					</div>
 					<footer class="major">
